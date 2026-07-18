@@ -1,0 +1,18 @@
+Step 2 — Create a root .gitignore
+Create a file called .gitignore at C:\Projects\bharatqueue\.gitignore:
+gitignore# Backend
+backend/target/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
